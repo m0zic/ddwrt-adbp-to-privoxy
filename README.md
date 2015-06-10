@@ -90,29 +90,28 @@ https://adblockplus.org/en/subscriptions<br>
 
 
 <h3>Custom Configuration example:</h3>
-<code>
-confdir /jffs/etc/privoxy 
-templdir /jffs/etc/privoxy/templates 
-logdir /var/log/privoxy 
-actionsfile match-all.action 
-actionsfile default.action 
-actionsfile user.action 
-filterfile default.filter 
-actionsfile liste_fr.script.action 
-actionsfile easylistchina.script.action 
-actionsfile easylist.script.action 
-filterfile liste_fr.script.filter 
-filterfile easylistchina.script.filter 
-filterfile easylist.script.filter 
-logfile logfile 
-tolerate-pipelining 1 
-enable-compression 1 
-enable-edit-actions 0 
-accept-intercepted-requests 1 
-listen-address 192.168.2.1:8118 
-max-client-connections 256 
-default-server-timeout 60 
-keep-alive-timeout 300 
-socket-timeout 120 
-toggle 1 
-</code>
+<code>confdir /jffs/etc/privoxy </code><br>
+<code>templdir /jffs/etc/privoxy/templates </code><br>
+<code>logdir /var/log/privoxy </code><br>
+<code>actionsfile match-all.action </code><br>
+<code>actionsfile default.action </code><br>
+<code>actionsfile user.action </code><br>
+<code>filterfile default.filter </code><br>
+<code>actionsfile liste_fr.script.action </code><br>
+<code>actionsfile easylistchina.script.action </code><br>
+<code>actionsfile easylist.script.action </code><br>
+<code>filterfile liste_fr.script.filter </code><br>
+<code>filterfile easylistchina.script.filter </code><br>
+<code>filterfile easylist.script.filter </code><br>
+<code>logfile logfile </code><br>
+<code>tolerate-pipelining 1 </code><br>
+<code>enable-compression 1 </code><br>
+<code>enable-edit-actions 0 </code><br>
+<code>accept-intercepted-requests 1 </code><br>
+<code>listen-address 192.168.2.1:8118 </code><br>
+<code>max-client-connections 256 </code><br>
+<code>default-server-timeout 60 </code><br>
+<code>keep-alive-timeout 300 </code><br>
+<code>socket-timeout 120 </code><br>
+<code>toggle 1 </code><br>
+
