@@ -87,3 +87,32 @@ https://adblockplus.org/en/subscriptions<br>
 <h3>Usage:</h3>
 
 <code>sh privoxy-blocklist.sh</code> - everytime you want to Update the Lists (see Install-Instructions above)[/list]
+
+
+<h3>Custom Configuration example:</h3>
+<code>
+confdir /jffs/etc/privoxy 
+templdir /jffs/etc/privoxy/templates 
+logdir /var/log/privoxy 
+actionsfile match-all.action 
+actionsfile default.action 
+actionsfile user.action 
+filterfile default.filter 
+actionsfile liste_fr.script.action 
+actionsfile easylistchina.script.action 
+actionsfile easylist.script.action 
+filterfile liste_fr.script.filter 
+filterfile easylistchina.script.filter 
+filterfile easylist.script.filter 
+logfile logfile 
+tolerate-pipelining 1 
+enable-compression 1 
+enable-edit-actions 0 
+accept-intercepted-requests 1 
+listen-address 192.168.2.1:8118 
+max-client-connections 256 
+default-server-timeout 60 
+keep-alive-timeout 300 
+socket-timeout 120 
+toggle 1 
+</code>
